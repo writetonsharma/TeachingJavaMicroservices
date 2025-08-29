@@ -1,0 +1,13 @@
+{
+  "body": {
+    "content": "ewogICAgInJvbGxudW1iZXIiOiAiIiwKICAgICJuYW1lIjogIk5hdmVlbiIsCiAgICAieWVhciI6ICIyMDI1IiwKICAgICJlbWFpbCI6ICJOYXZlZW4yMDI1QG5jdWluZGlhLmVkdSIsCiAgICAiY291cnNlcyI6IFsKICAgICAgImRhdGEgc3RydWN0dXJlcyIsCiAgICAgICJkYXRhYmFzZSBzeXN0ZW1zIiwKICAgICAgIm9wZXJhdGluZyBzeXN0ZW1zIiwKICAgICAgImNvbXB1dGVyIG5ldHdvcmtzIgogICAgXQogIH0=",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "title": "AddStudent",
+  "url": "http://localhost:9003/students/student"
+}

@@ -1,0 +1,13 @@
+{
+  "body": {
+    "content": "ewoiY291cnNlTmFtZSI6IkFuZ3VsYXIiLAoiY3JlZGl0cyI6IjIiCn0=",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "title": "AddCourse",
+  "url": "http://localhost:9002/course"
+}

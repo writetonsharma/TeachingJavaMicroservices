@@ -1,0 +1,14 @@
+{
+  "body": {
+    "content": "Cg==",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYXZlZW4iLCJpYXQiOjE3NTQwNDY1NDAsImV4cCI6MTc1NDA1MDE0MH0.ao_dLMCLbT1I3214Uo2YYKbC6n5QZthcnex2OntioM0"
+  },
+  "method": "GET",
+  "title": "getcourses",
+  "url": "https://localhost:9009/courses/"
+}

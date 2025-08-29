@@ -1,0 +1,11 @@
+{
+  "body": {
+    "content": "",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {},
+  "method": "GET",
+  "title": "GetStudentByRollNumber",
+  "url": "http://localhost:9000/student/s119"
+}

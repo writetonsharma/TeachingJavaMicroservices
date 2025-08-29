@@ -1,0 +1,13 @@
+{
+  "body": {
+    "content": "ewoidXNlcm5hbWUiOiAidGVzdHVzZXIiLAoidXNlcmVtYWlsIjoiVGVzdGVtYWlsIiwKInVzZXJwYXNzd29yZCI6InRlc3RwYXNzd29yZCIKfQo=",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "title": "AddRegisteration",
+  "url": "http://localhost:9004/registeration"
+}

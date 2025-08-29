@@ -1,0 +1,11 @@
+{
+  "body": {
+    "content": "",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {},
+  "method": "GET",
+  "title": "GetStudentByName",
+  "url": "http://localhost:9000/student?studentname=Liam Neeson"
+}

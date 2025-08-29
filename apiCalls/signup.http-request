@@ -1,0 +1,13 @@
+{
+  "body": {
+    "content": "ewoidXNlcm5hbWUiOiJuYXZlZW4iLAoidXNlcmVtYWlsIjoibmF2ZWVuQGdtYWlsLmNvbSIsCiJ1c2VycGFzc3dvcmQiOiJ0ZXN0Igp9Cg==",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "title": "signup",
+  "url": "https://localhost:9009/auth/signup"
+}

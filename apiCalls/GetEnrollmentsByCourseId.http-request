@@ -1,0 +1,13 @@
+{
+  "body": {
+    "content": "",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "method": "GET",
+  "title": "GetEnrollmentsByCourseId",
+  "url": "http://localhost:9003/enrollment/courseid/c105"
+}

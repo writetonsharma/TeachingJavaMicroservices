@@ -1,0 +1,13 @@
+{
+  "body": {
+    "content": "ewoidXNlcmVtYWlsIjoibmF2ZWVuQGdtYWlsLmNvbSIsCiJ1c2VycGFzc3dvcmQiOiJ0ZXN0Igp9Cg==",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "title": "login",
+  "url": "https://localhost:9009/auth/login"
+}

@@ -1,0 +1,13 @@
+{
+  "body": {
+    "content": "",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "method": "DELETE",
+  "title": "DeleteStudentByName",
+  "url": "http://localhost:9000/student/naveen"
+}

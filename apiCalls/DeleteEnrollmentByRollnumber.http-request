@@ -1,0 +1,11 @@
+{
+  "body": {
+    "content": "",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {},
+  "method": "DELETE",
+  "title": "DeleteEnrollmentByRollnumber",
+  "url": "http://localhost:9003/enrollment/s119"
+}
