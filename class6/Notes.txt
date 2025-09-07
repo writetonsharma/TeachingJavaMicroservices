@@ -1,0 +1,22 @@
+install nodejs
+install Angular 					- npm install -g @angular/cli
+check version 						- ng version
+create angular project 				- ng new college-ui
+run the project						- npm start
+explain 							- index.html, app.html, app.ts, app.css, app.config.ts
+explain								- component, service and model
+
+explain								<app-root>
+change app-root to ncu-root inside index.html and app.ts
+This selector from app.html is loaded into index.html body
+change application title to CollegeUI
+
+remove boilerplate code from index.html and add hello world with some css;
+So that's how a basic Angular app works.
+
+lets generate a new component
+ng generate component components/college
+import new component inside app.ts and add to imports section
+change app-college to ncu-college
+load the new component on home page
+try to load the new component from index.html and fix it.
