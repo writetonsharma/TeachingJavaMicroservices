@@ -3,7 +3,8 @@ install Angular 					- npm install -g @angular/cli
 check version 						- ng version
 create angular project 				- ng new college-ui
 run the project						- npm start
-explain 							- index.html, app.html, app.ts, app.css, app.config.ts
+explain 							- index.html, app.html, app.ts, app.css, 
+app.config.ts - contains application wide config and used inside main.ts.
 explain								- component, service and model
 
 explain								<app-root>
