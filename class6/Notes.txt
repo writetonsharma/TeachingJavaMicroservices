@@ -17,6 +17,33 @@ So that's how a basic Angular app works.
 lets generate a new component
 ng generate component components/college
 import new component inside app.ts and add to imports section
+change the prefix in angular.json to ncu from app
 change app-college to ncu-college
+in app.html, change app-college to ncu-college
 load the new component on home page
-try to load the new component from index.html and fix it.
+Change the color of college works by adding color to css file.
+
+generate other components and show that instead of app prefix, ng will generate with ncu now.
+ng generate component components/student
+ng generate component components/course
+ng generate component components/enrollment
+
+explain styles.css
+
+This ends a basic session on angular. next we will start building the UI.
+
+
+session-2
+add assets inside src, what it should contain.
+add src/assets to assets in angular.json
+add college.html, college.css and college.ts. Refresh page.
+show basic code, how assets are added inside html.
+no router link for now. Will be explained later.
+This page really does nothing much. just route and link to other components.
+We will build other components and then link them together later.
+
+
+session3
+Building other components.
+you should read about the lifecycle hooks. Some common ones are OnInit, OnDestroy, OnChanges. 
+There are more which you should know to understand how components works in Angular.
