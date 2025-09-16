@@ -1,5 +1,5 @@
 export interface ICourseDto
 {
-    coursename: string,
+    courseName: string,
     credits: number
 }

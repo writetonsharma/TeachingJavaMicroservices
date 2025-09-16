@@ -13,41 +13,41 @@ import { FormsModule } from '@angular/forms';
 })
 export class Course 
 {
-  course: ICourse;
-  coursedto: ICourseDto;
-  courseService: CourseService;
-  selectedItem: string;
+  Course: ICourse;
+  CourseDto: ICourseDto;
+  CourseService: CourseService;
+  SelectedItem: string;
 
 
   constructor(cs: CourseService)
   {
-    this.courseService = cs;
-    this.selectedItem = "";
+    this.CourseService = cs;
+    this.SelectedItem = "";
 
-    this.course = {
-      courseid: "",
-      coursename: "",
+    this.Course = {
+      courseId: "",
+      courseName: "",
       credits: 0
     };
-      this.coursedto = {
-      coursename: "",
+      this.CourseDto = {
+      courseName: "",
       credits: 0
     };
   }
 
   getCourseOptions(): ICourseOptions[]
   {
-    return this.courseService.getCourseOptions();
+    return this.CourseService.getCourseOptions();
   }
 
   getSelectedItem(): string
   {
-    return this.courseService.getSelectedItem();
+    return this.CourseService.getSelectedItem();
   }
 
   onSelectionChange(value: string): void
   {
-    this.selectedItem = value;
-    this.courseService.onSelectionChange(this.selectedItem);
+    this.SelectedItem = value;
+    this.CourseService.onSelectionChange(this.SelectedItem);
   }
 }

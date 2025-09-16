@@ -1,28 +1,26 @@
 <div class="container">
     <h1 class="head">Course Module</h1>
-    <p>{{ course.coursename }}</p>
-    <p>{{ course.credits }}</p>
     <hr>
     <div class="selection-container">
-        <select [ngModel]="selectedItem"
-            name="options" 
-            class="dropdown" 
+        <select [ngModel]="SelectedItem"
+        name="options" 
+        class="dropdown" 
         (ngModelChange)="onSelectionChange($event)">
-            <option *ngFor="let co of getCourseOptions()" [value]="co.id">{{ co.value }}</option>
+            <option *ngFor="let co of getCourseOptions()" [value]="co.id">{{ co.value}}</option>
         </select>
-        <input *ngIf="selectedItem === 'getcoursebyname' || selectedItem === 'addcourse'"
-        [(ngModel)]="course.coursename"
+        <input *ngIf="SelectedItem === 'getcoursebyname' || SelectedItem === 'addcourse'" 
+        [(ngModel)]="Course.courseName"
         class="txtcoursename" 
         placeholder="Enter course name"/>
-        <input *ngIf="selectedItem === 'getcoursebyid'"
-        [(ngModel)]="course.courseid"
-        class="txtcourseid" 
-        placeholder="Enter course id"/>
-        <input *ngIf="selectedItem === 'addcourse'"
-        [(ngModel)]="course.credits"
+        <input *ngIf="SelectedItem === 'getcoursebyid'"
+        [(ngModel)]="Course.courseId"
+        class="txtcourseid" placeholder="Enter course id"/>
+        <input *ngIf="SelectedItem === 'addcourse'"
+        [(ngModel)]="Course.credits" 
         class="txtcourseCredit" placeholder="Enter course credit"/>
-        <button *ngIf="selectedItem.length > 0"
-        class="submit cta">Submit</button>
+        <button *ngIf="SelectedItem.length > 0"
+        class="submit cta"
+        (click)="submitCourseRequest()">Submit</button>
     </div>
     <hr style="margin-top:25px;margin-bottom: 25px;">
     <label class="courselabel" style="margin-left:10%;">course-name</label>
