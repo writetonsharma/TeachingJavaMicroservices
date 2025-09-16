@@ -50,4 +50,18 @@ export class Course
     this.SelectedItem = value;
     this.CourseService.onSelectionChange(this.SelectedItem);
   }
+
+  submitCourseRequest(): void
+  {
+    if(this.SelectedItem === 'getallcourses') 
+    {
+      this.CourseService.getAllCourses();
+    }
+  }
+  
+  getCourses() : ICourseDto[] 
+  {
+    return this.CourseService.getCourses();
+  } 
+
 }

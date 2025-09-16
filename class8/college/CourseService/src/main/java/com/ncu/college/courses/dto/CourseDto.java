@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class CourseDto {
 
-    @JsonProperty("coursename")
+    @JsonProperty("courseName")
     String _CourseName;
 
     @JsonProperty("credits")

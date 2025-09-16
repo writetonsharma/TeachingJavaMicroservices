@@ -1,3 +1,5 @@
-.red {
-    color:red;
-}
+::ng-deep * {
+      
+    margin: 0;
+    padding: 0;
+  }

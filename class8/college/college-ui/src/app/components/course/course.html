@@ -26,10 +26,10 @@
     <label class="courselabel" style="margin-left:10%;">course-name</label>
     <label class="courselabel">course-credit</label>
     <ul class="courses">
-        <li class="course-item">
+        <li class="course-item" *ngFor="let c of getCourses()">
             <div class="course-info">
-                <div class="course-name">some course</div>
-                <div class="course-credits">some course credit</div>
+                <div class="course-name">{{ c.courseName }}</div>
+                <div class="course-credits">{{ c.credits }}</div>
             </div>
         </li>
     </ul>
