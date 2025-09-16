@@ -1,0 +1,193 @@
+.container
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #ecf0f1;
+}
+.head
+{
+    text-align: center;
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+.selection-container
+{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.dropdown
+{
+    justify-content: left;
+}
+
+.dropdown
+{
+    margin-right: 25px;
+    width: 25%;
+}
+
+.txtstudentname
+{
+    margin-right: 25px;
+    width: 25%;
+}
+
+.txtstudentrollnumber
+{
+    margin-right: 25px;
+    width: 25%;
+}
+
+.submit
+{
+    width: 5%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.txtstudentyear
+{
+    margin-right: 25px;
+    width: 10%;
+}
+.txtstudentemail
+{
+    margin-right: 25px;
+    width: 50%;
+}
+.txtstudentcourses
+{
+    margin-right: 25px;
+    width: 100%;
+}
+
+.lblstudentroll
+{
+    width: 18%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.lblstudentname
+{
+    width: 18%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.lblstudentyear
+{
+    width: 18%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.lblstudentemail
+{
+    width: 18%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.lblstudentcourses
+{
+    width: 18%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.student-item
+{
+    margin-bottom: 10px;
+}
+.txtRollnumber
+{
+    width: 18%;
+    display: inline-block;
+    margin-left:20px;
+
+}
+.txtname
+{
+    width: 18%;
+    display: inline-block;
+    margin-left:20px;
+}
+.txtyear
+{
+    width: 18%;
+    display: inline-block;
+    margin-left:20px;
+}
+.txtemail
+{
+    width: 18%;
+    display: flex;
+    display: inline-block;
+    margin-left:20px;
+}
+.lstcourses
+{
+    width: 18%;
+    display: inline-block;
+    margin-left:20px;
+}
+
+.footercontainer
+{
+    display: flex;
+    height: 60px;
+    background-color: #2c3e50;
+    width: 100%;
+    position:absolute;
+    bottom: 0;  
+}
+.footer
+{
+    position:absolute;
+    bottom: 0;
+    color: white;
+}
+
+.back
+{
+    width: 5%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;;
+}

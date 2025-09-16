@@ -1,0 +1,59 @@
+<div class="container">
+    <h1 class="head">Student Module</h1>
+    <hr>
+    <div class="selection-container">
+        <select
+        name="options" 
+        class="dropdown"
+        >
+            <option>options</option>
+        </select>
+    </div>
+    <div class="selection-container">
+        <input
+        class="txtstudentname" 
+        placeholder="Enter student name"/>
+        <input
+        class="txtstudentrollnumber" 
+        placeholder="Enter student rollnumber"/>
+        <input
+        class="txtstudentyear" 
+        placeholder="Enrollment Year"/>
+        <button 
+        class="submit cta">Submit</button>
+    </div>
+    <div class="selection-container">
+        <input 
+        class="txtstudentemail" 
+        placeholder="Email"/>
+        <textarea
+        class="txtstudentcourses" 
+        placeholder="Courses taking. Type each course on a new line."></textarea>
+    </div>
+    
+
+    <hr style="margin-top:25px;margin-bottom: 25px;">
+    <label class="lblstudentroll">Roll number</label>
+    <label class="lblstudentname">Name</label>
+    <label class="lblstudentyear">Year enrolled</label>
+    <label class="lblstudentemail">Email</label>
+    <label class="lblstudentcourses">Courses</label>
+    <ul class="students">
+        <li class="student-item">
+            <div class="student-info">
+                <div class="txtRollnumber"></div>
+                <div class="txtname"></div>
+                <div class="txtyear"></div>
+                <div class="txtemail"></div>
+                <select name="courses" class="lstcourses" size="3">
+                    <option value="course1" ></option>
+                </select>
+            </div>
+        </li>
+    </ul>
+    <button class="back cta">back</button>
+    <!--div class="footercontainer">
+        <div class="footer">© 2025 NCU. All rights reserved.</div>
+    </div-->
+
+</div>

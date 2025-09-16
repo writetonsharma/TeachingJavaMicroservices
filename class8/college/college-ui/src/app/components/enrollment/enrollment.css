@@ -1,0 +1,132 @@
+.container
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #ecf0f1;
+}
+.head
+{
+    text-align: center;
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+.selection-container
+{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.dropdown
+{
+    justify-content: left;
+}
+
+.dropdown
+{
+    margin-right: 25px;
+    width: 25%;
+}
+
+.txtrollnumber
+{
+    margin-right: 25px;
+    width: 25%;
+}
+
+.txtcourseid
+{
+    margin-right: 25px;
+    width: 25%;
+}
+
+.submit
+{
+    width: 5%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.enrollment-item
+{
+    margin-bottom: 10px;
+}
+.roll-number
+{
+    width: 30%;
+    display: flex;
+    display: inline-block;
+    clear: left;
+    margin-left:10%;
+}
+.course-id
+{
+    width: 30%;
+    display: flex;
+    display: inline-block;
+    clear: left;
+    margin-left:10%;
+}
+
+.enrollmentlabel
+{
+    width: 40%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.footercontainer
+{
+    display: flex;
+    height: 60px;
+    background-color: #2c3e50;
+    width: 100%;
+    position:absolute;
+    bottom: 0;  
+}
+.footer
+{
+    position:absolute;
+    bottom: 0;
+    color: white;
+}
+.student-rollnumber
+{
+    width: 30%;
+    display: flex;
+    display: inline-block;
+    clear: left;
+    margin-left:10%;
+}
+.course-Id
+{
+    width: 30%;
+    display: flex;
+    display: inline-block;
+    clear: left;
+    margin-left:10%;
+}
+
+.back
+{
+    width: 5%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;;
+}

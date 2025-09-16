@@ -1,0 +1,85 @@
+
+.container
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #ecf0f1;
+}
+.head
+{
+    text-align: center;
+    color: #2c3e50;
+
+}
+.login
+{
+  display: flex;
+  text-align: right;
+  margin-right: 25px;
+  float: right;
+}
+
+h1
+{
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.headerImage
+{
+    width: 100%;
+    background-position: center;
+}
+
+.FloatingDiv
+{
+    display: flex;
+    display: inline-block;
+    clear: left;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 25%;
+}
+
+.LinkImages
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ImageText
+{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #34495e;
+    font-family: 'Arial', sans-serif;
+}
+
+.content
+{
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    background-color: #ecf0f1;
+}
+
+.footer
+{
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    margin-top: 50px;
+    bottom: 0;
+    right:0;
+}
