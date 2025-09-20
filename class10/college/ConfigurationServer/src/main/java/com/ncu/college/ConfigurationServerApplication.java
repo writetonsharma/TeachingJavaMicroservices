@@ -18,7 +18,16 @@ public class ConfigurationServerApplication
 {    
     public static void main(String[] args) {
 
-        SpringApplication.run(ConfigurationServerApplication.class, args);
+        SpringApplication app = new SpringApplication(ConfigurationServerApplication.class);
+        
+        
+        String mode = System.getenv("CONFIG_MODE");
+        if ("native".equalsIgnoreCase(mode)) {
+            app.setAdditionalProfiles("native");
+        } else {
+            app.setAdditionalProfiles("git");
+        }
+        app.run(args);
     }
 }
 
