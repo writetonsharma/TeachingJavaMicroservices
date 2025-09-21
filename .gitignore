@@ -19,3 +19,5 @@ class3/college/StudentService/target
 /class8/college/apigateway/target
 /class8/college/EnrollmentService/target
 /class8/college/.vscode
+target*
+.vscode*
