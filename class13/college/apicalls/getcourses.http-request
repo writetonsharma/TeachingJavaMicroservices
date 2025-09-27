@@ -1,0 +1,14 @@
+{
+  "body": {
+    "content": "",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "authorization": "Basic bmF2ZWVuQGdtYWlsLmNvbTpuYXZlZW4=",
+    "content-type": "application/json"
+  },
+  "method": "GET",
+  "title": "getcourses",
+  "url": "http://localhost:9004/courses/"
+}

@@ -1,0 +1,13 @@
+{
+  "body": {
+    "content": "ewoiZW1haWwiOiJuYXZlZW5AZ21haWwuY29tIiwKInBhc3N3b3JkIjoibmF2ZWVuIgp9",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "title": "authenticate",
+  "url": "http://localhost:9004/auth/authenticate"
+}
